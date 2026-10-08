@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: garry
+
+  datasource:
+    url: jdbc:h2:file:./garry-db
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: ""
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: true
+
+server:
+  port: 8080

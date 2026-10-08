@@ -4,13 +4,17 @@
 
 package com.c.garry;
 
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 /**
  *
  * @author avs
  */
+@SpringBootApplication
 public class Garry {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        SpringApplication.run(Garry.class, args);
     }
 }
